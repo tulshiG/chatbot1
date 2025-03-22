@@ -1,0 +1,51 @@
+/* [project]/styles/ChatBot.module.css [client] (css) */
+.ChatBot-module__jstDya__chatContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.ChatBot-module__jstDya__chatBox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 16px;
+}
+
+.ChatBot-module__jstDya__inputRow {
+  display: flex;
+  gap: 10px;
+}
+
+.ChatBot-module__jstDya__chatInput {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.ChatBot-module__jstDya__sendButton {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.ChatBot-module__jstDya__sendButton:hover {
+  background-color: #005bb5;
+}
+
+
+/*# sourceMappingURL=styles_ChatBot_module_99d3d711.css.map*/
